@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceAuthentication.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceAuthentication.FirstMicroService", "MicroserviceAuthentication.FirstMicroService\MicroserviceAuthentication.FirstMicroService.csproj", "{CE78E53A-F4AC-4206-887B-FA9750F6997A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceAuthentication.SecondMicroService", "MicroserviceAuthentication.SecondMicroService\MicroserviceAuthentication.SecondMicroService.csproj", "{4A6D5CA9-D433-4CE3-86C4-4D7EBCFD148D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CE78E53A-F4AC-4206-887B-FA9750F6997A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE78E53A-F4AC-4206-887B-FA9750F6997A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE78E53A-F4AC-4206-887B-FA9750F6997A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A6D5CA9-D433-4CE3-86C4-4D7EBCFD148D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6D5CA9-D433-4CE3-86C4-4D7EBCFD148D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6D5CA9-D433-4CE3-86C4-4D7EBCFD148D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6D5CA9-D433-4CE3-86C4-4D7EBCFD148D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
