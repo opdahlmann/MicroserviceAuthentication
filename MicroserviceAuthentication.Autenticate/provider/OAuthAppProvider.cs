@@ -45,7 +45,6 @@ namespace MicroserviceAuthentication.Autenticate.provider
         {
             var dataFile = "c:\\temp\\accesstoken.txt";
             TokenStore data = new TokenStore() { token = context.AccessToken, UserId = context.Identity.Claims.Last().Value };
-            //  responseData = JsonConvert.DeserializeObject<RootObject>(jsonResponse);
             File.WriteAllText(@dataFile, JsonConvert.SerializeObject(data));
             return base.TokenEndpointResponse(context);
         }
