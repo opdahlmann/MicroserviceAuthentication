@@ -9,9 +9,10 @@ namespace MicroserviceAuthentication.SecondMicroService.Controllers
 {
     public class TestController : ApiController
     {
-        [CustomAuthorize]
+      [CustomAuthorize]
         public string Get()
         {
+           
             return "test";
         }
     }
