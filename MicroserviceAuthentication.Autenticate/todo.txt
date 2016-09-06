@@ -1,0 +1,10 @@
+﻿Microsoft.AspNet.WebApi.Owin
+Microsoft.Owin.Host.SystemWeb
+Microsoft ASP.NET Identity Owin
+
+
+unit test
+Microsoft.Net.Http
+Newtonsoft.Json
+
+Microsoft.CSharp
